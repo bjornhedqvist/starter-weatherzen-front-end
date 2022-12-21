@@ -30,17 +30,15 @@ function Home() {
       <ErrorAlert error={error} />
       <table className="table">
         <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Latitude</th>
-          <th scope="col">Longitude</th>
-          <th scope="col">Sky Condition</th>
-          <th scope="col">Created</th>
-        </tr>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Latitude</th>
+            <th scope="col">Longitude</th>
+            <th scope="col">Sky Condition</th>
+            <th scope="col">Created</th>
+          </tr>
         </thead>
-        <tbody>
-        {tableRows}
-        </tbody>
+        <tbody>{tableRows}</tbody>
       </table>
     </main>
   );
